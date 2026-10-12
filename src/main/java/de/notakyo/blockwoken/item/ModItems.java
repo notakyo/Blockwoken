@@ -23,7 +23,7 @@ public class ModItems {
                                     Attributes.ATTACK_DAMAGE,
                                     new AttributeModifier(
                                             Item.BASE_ATTACK_DAMAGE_ID,
-                                            12.0,
+                                            11.0,
                                             AttributeModifier.Operation.ADD_VALUE
                                     ),
                                     EquipmentSlotGroup.MAINHAND
