@@ -1,6 +1,4 @@
-
-█▄▄ █░░ █▀█ █▀▀ █▄▀ █░█░█ █▀█ █▀▀ █▄▀ █▀▀ █▄░█
-█▄█ █▄▄ █▄█ █▄▄ █░█ ▀▄▀▄▀ █▄█ █▄▄ █░█ ██▄ █░▀█
+**BLOCKWOKEN**
 
 First proper project of mine
 Deepwoken-themed Minecraft mod
