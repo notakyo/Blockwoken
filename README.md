@@ -1,6 +1,6 @@
 **BLOCKWOKEN**
 
-First proper project of mine
+First proper project of mine,
 Deepwoken-themed Minecraft mod
 
 List of content
