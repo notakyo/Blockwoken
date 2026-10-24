@@ -2,6 +2,7 @@ package de.notakyo.blockwoken.item;
 
 import de.notakyo.blockwoken.Blockwoken;
 import de.notakyo.blockwoken.item.custom.DarksteelGreatswordItem;
+import de.notakyo.blockwoken.item.custom.SerpentsedgeSwordItem;
 import net.minecraft.world.entity.EquipmentSlotGroup;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -40,6 +41,29 @@ public class ModItems {
                                     .build()
                     )
             ));
+    public static final DeferredItem<Item> SERPENTSEDGE_SWORD = ITEMS.registerItem("serpentsedge_sword",
+            properties -> new SerpentsedgeSwordItem(properties
+                    .durability(500)
+                    .attributes(
+                            ItemAttributeModifiers.builder().add(
+                                    Attributes.ATTACK_DAMAGE,
+                                    new AttributeModifier(
+                                            Item.BASE_ATTACK_DAMAGE_ID,
+                                            7,
+                                            AttributeModifier.Operation.ADD_VALUE
+                                    ),
+                                    EquipmentSlotGroup.MAINHAND)
+                                    .add(
+                                            Attributes.ATTACK_SPEED,
+                                            new AttributeModifier(
+                                                    Item.BASE_ATTACK_DAMAGE_ID,
+                                                    0,
+                                                    AttributeModifier.Operation.ADD_VALUE
+                                            ),
+                                            EquipmentSlotGroup.MAINHAND
+                                    )
+                                    .build()
+                    )));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

@@ -2,5 +2,7 @@
   "itemGroup.blockwoken": "Example Mod Tab",
   "block.blockwoken.example_block": "Example Block",
   "item.blockwoken.example_item": "Example Item",
-  "item.blockwoken.darksteel_greatsword": "Darksteel Greatsword"
+  "item.blockwoken.darksteel_greatsword": "Darksteel Greatsword",
+  "item.blockwoken.serpentsedge_sword": "Serpents Edge",
+  "entity.blockwoken.lootchest": "Lootchest"
 }
